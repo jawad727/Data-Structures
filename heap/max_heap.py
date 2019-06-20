@@ -25,6 +25,7 @@ class Heap:
 
     while index > 0:
 
+
         parent = (index -1 ) // 2
 
         if self.storage[index] > self.storage[parent]:
